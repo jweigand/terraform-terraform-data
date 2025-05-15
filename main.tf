@@ -13,3 +13,7 @@ resource "terraform_data" "this" {
 output "input" {
   value = var.input != "" ? var.input : null # sets output to null if 'input' variable does not have a value
 }
+
+output "demo" {
+  value = "hi phoebe"
+}
